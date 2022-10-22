@@ -1,7 +1,7 @@
 # Web Studentského Parlamentu Ječná 🌾
 Jde o webovou stránku, která bude sloužit jako místo, kde se budou zveřejňovat informace o projektech, vedení parlamentu či o jednotlivých událostech, které bude parlament pořádat.
 
-[Odkaz na live page](https://studentsky-parlament-jecna.github.io/web/)
+[Odkaz na LIVE PAGE](https://studentsky-parlament-jecna.github.io/web/)
 
 # 💪Jak mohu přispět?
 ## Github
