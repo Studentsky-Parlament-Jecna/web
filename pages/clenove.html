@@ -6,195 +6,264 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" defer
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
     <title>Studentský Parlament Ječná</title>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="../index.html">
-                <img width="30" src="../img/logo/logo.svg" class="pe-2" alt="">
-                Studentský Parlament Ječná</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="../index.html">
+            <img width="30" src="../img/logo/logo.svg" class="pe-2" alt="">
+            Studentský Parlament Ječná</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="../index.html">Domů</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/novinky.html">Novinky</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Projekty
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">🎮 LANka</a></li>
-                            <li><a class="dropdown-item" href="https://github.com/Studentsky-Parlament-Jecna/Brozura">📖
-                                    Brožura Ječňáka</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item"
-                                    href="https://play.google.com/store/apps/details?id=me.tomasan7.jecnamobile">Ječná
-                                    Mobile (Android app)</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="../pages/clenove.html">Členové</a>
-                    </li>
-                </ul>
-                <form action="https://discord.gg/KkdNSGdSv9">
-                    <button class="btn btn-primary" type="submit"><i class="bi bi-discord pe-2"></i>Přidat se</button>
-                </form>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Domů</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/novinky.html">Novinky</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Projekty
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">🎮 LANka</a></li>
+                        <li><a class="dropdown-item" href="https://github.com/Studentsky-Parlament-Jecna/Brozura">📖
+                            Brožura Ječňáka</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item"
+                               href="https://play.google.com/store/apps/details?id=me.tomasan7.jecnamobile">Ječná
+                            Mobile (Android app)</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../pages/clenove.html">Členové</a>
+                </li>
+            </ul>
+            <form action="https://discord.gg/KkdNSGdSv9">
+                <button class="btn btn-primary" type="submit"><i class="bi bi-discord pe-2"></i>Přidat se</button>
+            </form>
 
-            </div>
         </div>
-    </nav>
-
-
-
-    <div class="container m-4">
-        <section>
-            <h2>Vedení</h2>
-            <div class="d-flex p-4 flex-wrap">
-                <div class="card m-1" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Ondřej Kulhavý <span class="badge text-bg-primary">C3b</span></h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Předseda</h6>
-                        <p class="card-text"></p>
-                        <a class="btn btn-link btn-floating btn-lg text-dark p-0"
-                            href="https://www.instagram.com/okulhavy" role="button" data-mdb-ripple-color="dark"><i
-                                class="bi bi-instagram"></i></a>
-                    </div>
-                </div>
-
-                <div class="card m-1" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Martin Polanecký <span class="badge text-bg-primary">C2a</span></h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Místo předseda</h6>
-                        <p class="card-text"></p>
-                        <a class="btn btn-link btn-floating btn-lg text-dark p-0" href="#" role="button"
-                            data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2>PR tým</h2>
-            <div class="d-flex p-4 flex-wrap">
-                <div class="card m-1" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Vojtěch Čalkovský <span class="badge text-bg-primary">C4a</span></h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Grafik</h6>
-                        <p class="card-text"></p>
-                        <a class="btn btn-link btn-floating btn-lg text-dark p-0" href="#" role="button"
-                            data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="card m-1" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Martin Polanecký <span class="badge text-bg-primary">C2a</span></h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Grafik</h6>
-                        <p class="card-text"></p>
-                        <a class="btn btn-link btn-floating btn-lg text-dark p-0" href="#" role="button"
-                            data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2>Moderátoři chatu</h2>
-            <div class="d-flex p-4 flex-wrap">
-                <div class="card m-1" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Matyáš Závora <span class="badge text-bg-primary">C3c</span></h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Moderátor chatu</h6>
-                        <p class="card-text"></p>
-                        <a class="btn btn-link btn-floating btn-lg text-dark p-0" href="#" role="button"
-                            data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
-                    </div>
-                </div>
-
-                <div class="card m-1" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Jakub Adamec <span class="badge text-bg-warning">FEL</span></h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Moderátor chatu</h6>
-                        <p class="card-text"></p>
-                        <a class="btn btn-link btn-floating btn-lg text-dark p-0" href="#" role="button"
-                            data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
-                    </div>
-                </div>
-
-                <div class="card m-1" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Lukáš Votava <span class="badge text-bg-primary">E4</span></h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Moderátor chatu</h6>
-                        <p class="card-text"></p>
-                        <a class="btn btn-link btn-floating btn-lg text-dark p-0" href="#" role="button"
-                            data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
-                    </div>
-                </div>
-
-                <div class="card m-1" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Zuzana Míčková <span class="badge text-bg-primary">C4a</span></h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Moderátor chatu</h6>
-                        <p class="card-text"></p>
-                        <a class="btn btn-link btn-floating btn-lg text-dark p-0" href="#" role="button"
-                            data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2>Zástupci tříd</h2>
-            <div class="d-flex p-4 flex-wrap">
-            </div>
-        </section>
-
     </div>
+</nav>
 
 
-    <footer class="text-center text-white" style="background-color: #f1f1f1;">
-        <div class="container pt-4">
-            <section class="mb-4">
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1 hover-overlay"
-                    href="https://www.facebook.com/parlamentjecna/" role="button" data-mdb-ripple-color="dark"><i
-                        class="bi bi-facebook"></i></a>
+<div class="container m-4">
+    <section>
+        <h2>Vedení</h2>
+        <div class="d-flex p-4 flex-wrap">
+            <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Matěj Šach <span class="badge text-bg-primary">C2c</span></h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Předseda</h6>
+                    <p class="card-text"></p>
+                    <a class="btn btn-link btn-floating btn-lg text-dark p-0"
+                       href="https://www.instagram.com/matt.the.woo/" role="button" data-mdb-ripple-color="dark"><i
+                            class="bi bi-instagram"></i></a>
+                </div>
+            </div>
 
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="https://www.instagram.com/jecnaparlament/" role="button" data-mdb-ripple-color="dark"><i
-                        class="bi bi-instagram"></i></a>
-
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="https://www.linkedin.com/company/studentsk%C3%BD-parlament-je%C4%8Dn%C3%A1/" role="button"
-                    data-mdb-ripple-color="dark"><i class="bi bi-linkedin"></i></a>
-
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="https://github.com/Studentsky-Parlament-Jecna" role="button" data-mdb-ripple-color="dark"><i
-                        class="bi bi-github"></i></a>
-            </section>
+            <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Matyáš Závora <span class="badge text-bg-primary">C3c</span></h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Místo předseda</h6>
+                    <p class="card-text"></p>
+                    <a class="btn btn-link btn-floating btn-lg text-dark p-0"
+                       href="https://www.instagram.com/definitelynotmates/" role="button"
+                       data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
         </div>
-        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2022 Copyright:
-            <a class="text-dark" href="#">Studentský Parlament Ječná</a>
+    </section>
+    <section>
+        <h2>Admins</h2>
+        <div class="d-flex p-4 flex-wrap">
+            <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Ondřej Kulhavý <span class="badge text-bg-primary">C3b</span></h5>
+                    <p class="card-text"></p>
+                    <a class="btn btn-link btn-floating btn-lg text-dark p-0" href="https://www.instagram.com/okulhavy/"
+                       role="button"
+                       data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Martin Polanecký <span class="badge text-bg-primary">C2a</span></h5>
+                    <p class="card-text"></p>
+                    <a class="btn btn-link btn-floating btn-lg text-dark p-0"
+                       href="https://www.instagram.com/m_polanecky/" role="button"
+                       data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Martin Rosič <span class="badge text-bg-primary">C2c</span></h5>
+                    <p class="card-text"></p>
+                    <a class="btn btn-link btn-floating btn-lg text-dark p-0"
+                       href="https://www.instagram.com/realwennix/" role="button"
+                       data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
         </div>
-    </footer>
+    </section>
+
+    <section>
+        <h2>PR Tým</h2>
+        <div class="d-flex p-4 flex-wrap">
+            <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Daniel Linda <span class="badge text-bg-primary">C2c</span></h5>
+                    <p class="card-text"></p>
+                    <a class="btn btn-link btn-floating btn-lg text-dark p-0"
+                       href="https://www.instagram.com/_daniellinda_/" role="button"
+                       data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Vojtěch Čalkovský <span class="badge text-bg-primary">C4a</span></h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Josef Větrovský <span class="badge text-bg-primary">C2b</span></h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+        <h2>Moderátoři</h2>
+        <div class="d-flex p-4 flex-wrap">
+            <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Daniel Linda <span class="badge text-bg-primary">C2c</span></h5>
+                    <p class="card-text"></p>
+                    <a class="btn btn-link btn-floating btn-lg text-dark p-0"
+                       href="https://www.instagram.com/_daniellinda_/" role="button"
+                       data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Jakub Adamec <span class="badge text-bg-warning">FEL</span></h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Lukáš Votava <span class="badge text-bg-primary">E4</span></h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Tadeáš Pirich <span class="badge text-bg-primary">C2b</span></h5>
+                    <p class="card-text"></p>
+                    <a class="btn btn-link btn-floating btn-lg text-dark p-0"
+                       href="https://www.instagram.com/tade.pirich/" role="button"
+                       data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Vojtěch Čalkovský <span class="badge text-bg-primary">C4a</span></h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>SW Devs</h2>
+        <div class="d-flex p-4 flex-wrap">
+            <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Daniel Linda <span class="badge text-bg-primary">C2c</span></h5>
+                    <p class="card-text"></p>
+                    <a class="btn btn-link btn-floating btn-lg text-dark p-0"
+                       href="https://www.instagram.com/_daniellinda_/" role="button"
+                       data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Matěj Šach <span class="badge text-bg-primary">C2c</span></h5>
+                    <p class="card-text"></p>
+                    <a class="btn btn-link btn-floating btn-lg text-dark p-0"
+                       href="https://www.instagram.com/matt.the.woo/" role="button" data-mdb-ripple-color="dark"><i
+                            class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Jakub Adamec <span class="badge text-bg-warning">FEL</span></h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Ječná mobile</h2>
+        <div class="d-flex p-4 flex-wrap">
+            <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Tomáš Hůla <span class="badge text-bg-primary">C2c</span></h5>
+                    <p class="card-text"></p>
+                    <a class="btn btn-link btn-floating btn-lg text-dark p-0"
+                       href="https://www.instagram.com/tomikhula/" role="button"
+                       data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<footer class="text-center text-white" style="background-color: #f1f1f1;">
+    <div class="container pt-4">
+        <section class="mb-4">
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1 hover-overlay"
+               href="https://www.facebook.com/parlamentjecna/" role="button" data-mdb-ripple-color="dark"><i
+                    class="bi bi-facebook"></i></a>
+
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+               href="https://www.instagram.com/jecnaparlament/" role="button" data-mdb-ripple-color="dark"><i
+                    class="bi bi-instagram"></i></a>
+
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+               href="https://www.linkedin.com/company/studentsk%C3%BD-parlament-je%C4%8Dn%C3%A1/" role="button"
+               data-mdb-ripple-color="dark"><i class="bi bi-linkedin"></i></a>
+
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+               href="https://github.com/Studentsky-Parlament-Jecna" role="button" data-mdb-ripple-color="dark"><i
+                    class="bi bi-github"></i></a>
+        </section>
+    </div>
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-dark" href="#">Studentský Parlament Ječná</a>
+    </div>
+</footer>
 </body>
 
 </html>
