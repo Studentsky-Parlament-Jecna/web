@@ -6,173 +6,178 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" defer
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
     <title>Studentský Parlament Ječná</title>
 </head>
 
-<body>
+<body class="bg-dark">
 
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img width="30" src="img/logo/logo.svg" class="pe-2" alt="">
-                Studentský Parlament Ječná</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+<nav class="navbar navbar-light navbar-expand-lg" style="background-color: #1d2124;">
+    <div class="container">
+        <a class="navbar-brand text-light" href="#">
+            <img width="30" src="img/logo/logo.svg" class="pe-0" alt="">
+            Studentský Parlament Ječná</a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Domů</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/novinky.html">Novinky</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Projekty
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">🎮 LANka</a></li>
-                            <li><a class="dropdown-item" href="https://github.com/Studentsky-Parlament-Jecna/Brozura">📖
-                                    Brožura Ječňáka</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item"
-                                    href="https://play.google.com/store/apps/details?id=me.tomasan7.jecnamobile">Ječná
-                                    Mobile (Android app)</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/clenove.html">Členové</a>
-                    </li>
-                </ul>
-                <form action="https://discord.gg/KkdNSGdSv9">
-                    <button class="btn btn-primary" type="submit"><i class="bi bi-discord pe-2"></i>Přidat se</button>
-                </form>
-
-            </div>
-        </div>
-    </nav>
-
-
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active " data-bs-interval="2000">
-                <img src="img/carousel/banner.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Rozvoj</h5>
-                        <p>Pomáhej rozvíjet prostředí, kde studuješ</p>
-                </div>
-            </div>
-            <div class="carousel-item " data-bs-interval="2000">
-                <img src="img/carousel/group.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Spolupráce</h5>
-                        <p>Poznáš nové lidi a získáš přátele</p>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-                <img src="img/carousel/projects.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Projekty</h5>
-                        <p>Vytvářej a spolupracuj na zajímavých projektech</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span class="navbar-toggler-icon "></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <main class="container">
-
-
-
-        <div class="p-4 m-4">
-            <h2>Co je to Studentský Parlament Ječná?</h2>
-            <p>Jsme samosprávná organizace studentů SPŠE Ječná.</p>
-            <h4>Co jsou naše cíle?</h4>
-            <ul>
-                <li>✔Udělat školu lepším místem</li>
-                <li>✔Propojit studenty</li>
-                <li>✔Vést diskuzi mezi studenty a školou</li>
-                <li>✔Bojovat za studenty</li>
-            </ul>
-            <h4>Co děláme?</h4>,
-            <ul>
-                <li>📚 Vytváříme brožuru, kde může každý nový Ječňák najít odpovědi na vše, co ho o naší škole zajímá.
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Domů</a>
                 </li>
-                <li>📝 Píšeme návrhy na změny v naší škole</li>
-                <li>📧 Komunikujeme s vedením školy</li>
-                <li>📅 Organizujeme akce (LANky) pro studenty</li>
-                <li>🌙 Každý měsíc se pravidelně scházíme a diskutujeme</li>
-                <li>A mnoho dalšího</li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="pages/novinky.html">Novinky</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Projekty
+                    </a>
+                    <ul class="dropdown-menu bg-dark">
+                        <li><a class="dropdown-item text-white" href="#">🎮 LANka</a></li>
+                        <li><a class="dropdown-item text-white"
+                               href="https://github.com/Studentsky-Parlament-Jecna/Brozura">📖
+                            Brožura Ječňáka</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item text-white"
+                               href="https://play.google.com/store/apps/details?id=me.tomasan7.jecnamobile">Ječná
+                            Mobile (Android app)</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="pages/clenove.html">Členové</a>
+                </li>
             </ul>
+            <form action="https://discord.gg/KkdNSGdSv9">
+                <button class="btn btn-primary text-dark" type="submit"><i class="bi bi-discord pe-2 text-dark"></i>Přidat
+                    se
+                </button>
+            </form>
 
-            <h4>Jak nám můžeš pomoci?</h1>
-                <ul>
-                    <li><b>Ujisti se, že tvůj třídní předseda dochází pravidelně na naše zasedání!</b></li>
-                    <li>Pomoz nám s propagací 📣. Řekni/sdílej o nás našim spolužákům</li>
-                    <li>Přidej se do našeho <a href="https://discord.gg/KkdNSGdSv9">Discordového serveru</a></li>
-                    <li>Napiš nám návrh na změnu v naší škole</li>
-                    <li>Přidej se do některého z našich týmu (PR, Web, Brožura, atd...)</li>
-                    <li>Pomoz nám s organizací akcí</li>
-                </ul>
         </div>
-    </main>
+    </div>
+</nav>
 
 
-
-
-    <footer class="text-center text-white" style="background-color: #f1f1f1;">
-        <div class="container pt-4">
-            <section class="mb-4">
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1 hover-overlay"
-                    href="https://www.facebook.com/parlamentjecna/" role="button" data-mdb-ripple-color="dark"><i
-                        class="bi bi-facebook"></i></a>
-
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="https://www.instagram.com/jecnaparlament/" role="button" data-mdb-ripple-color="dark"><i
-                        class="bi bi-instagram"></i></a>
-
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="https://www.linkedin.com/company/studentsk%C3%BD-parlament-je%C4%8Dn%C3%A1/" role="button"
-                    data-mdb-ripple-color="dark"><i class="bi bi-linkedin"></i></a>
-
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="https://github.com/Studentsky-Parlament-Jecna" role="button" data-mdb-ripple-color="dark"><i
-                        class="bi bi-github"></i></a>
-            </section>
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active bg-light"
+                aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="bg-light"
+                aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="bg-light"
+                aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active " data-bs-interval="2000">
+            <img src="img/carousel/banner.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-light">
+                <h1>Rozvoj</h1>
+                <p>Pomáhej rozvíjet prostředí, kde studuješ</p>
+            </div>
         </div>
-        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2022 Copyright:
-            <a class="text-dark" href="#">Studentský Parlament Ječná</a>
+        <div class="carousel-item " data-bs-interval="2000">
+            <img src="img/carousel/group.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-light">
+                <h1>Spolupráce</h1>
+                <p>Poznáš nové lidi a získáš přátele</p>
+            </div>
         </div>
-    </footer>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/carousel/projects.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-light">
+                <h1>Projekty</h1>
+                <p>Vytvářej a spolupracuj na zajímavých projektech</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<main class="container">
+
+
+    <div class="p-4 m-4 text-light">
+        <h2>Co je to Studentský Parlament Ječná?</h2>
+        <p>Jsme samosprávná organizace studentů SPŠE Ječná.</p>
+        <h4>Co jsou naše cíle?</h4>
+        <ul>
+            <li>✔Udělat školu lepším místem</li>
+            <li>✔Propojit studenty</li>
+            <li>✔Vést diskuzi mezi studenty a školou</li>
+            <li>✔Bojovat za studenty</li>
+        </ul>
+        <h4>Co děláme?</h4>
+        <ul>
+            <li>📚 Vytváříme brožuru, kde může každý nový Ječňák najít odpovědi na vše, co ho o naší škole zajímá.
+            </li>
+            <li>📝 Píšeme návrhy na změny v naší škole</li>
+            <li>📧 Komunikujeme s vedením školy</li>
+            <li>📅 Organizujeme akce (LANky) pro studenty</li>
+            <li>🌙 Každý měsíc se pravidelně scházíme a diskutujeme</li>
+            <li>A mnoho dalšího</li>
+        </ul>
+
+        <h4>Jak nám můžeš pomoci?</h4>
+        <ul>
+            <li><b>Ujisti se, že tvůj třídní předseda dochází pravidelně na naše zasedání!</b></li>
+            <li>Pomoz nám s propagací 📣. Řekni/sdílej o nás našim spolužákům</li>
+            <li>Přidej se do našeho discord serveru <a class="btn-lg text-light m-1"
+                                                       href="https://discord.gg/KkdNSGdSv9" role="button"><i
+                    class="bi bi-discord"></i></a></li>
+            <li>Napiš nám návrh na změnu v naší škole</li>
+            <li>Přidej se do některého z našich týmu (PR, Web, Brožura, atd...)</li>
+            <li>Pomoz nám s organizací akcí</li>
+        </ul>
+    </div>
+</main>
+
+
+<footer class="text-center text-white bg-dark" style="background-color: #f1f1f1;">
+    <div class="container pt-4">
+        <section class="mb-4">
+            <a class="btn btn-link btn-floating btn-lg text-light m-1 hover-overlay"
+               href="https://www.facebook.com/parlamentjecna/" role="button" data-mdb-ripple-color="dark"><i
+                    class="bi bi-facebook"></i></a>
+
+            <a class="btn btn-link btn-floating btn-lg text-light m-1"
+               href="https://www.instagram.com/jecnaparlament/" role="button" data-mdb-ripple-color="dark"><i
+                    class="bi bi-instagram"></i></a>
+
+            <a class="btn btn-link btn-floating btn-lg text-light m-1"
+               href="https://www.linkedin.com/company/studentsk%C3%BD-parlament-je%C4%8Dn%C3%A1/" role="button"
+               data-mdb-ripple-color="dark"><i class="bi bi-linkedin"></i></a>
+
+            <a class="btn btn-link btn-floating btn-lg text-light m-1"
+               href="https://github.com/Studentsky-Parlament-Jecna" role="button" data-mdb-ripple-color="dark"><i
+                    class="bi bi-github"></i></a>
+            <a class="btn btn-link btn-floating btn-lg text-light m-1"
+               href="https://discord.gg/KkdNSGdSv9" role="button" data-mdb-ripple-color="dark"><i
+                    class="bi bi-discord"></i></a>
+        </section>
+    </div>
+    <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-light" href="#">Studentský Parlament Ječná</a>
+    </div>
+</footer>
 
 </body>
 
